@@ -1,5 +1,5 @@
 # PyPortS
-Python-based Port Scanner
+Python-based Port Scanner. You know how people need to submit reports when finishing a task? PyPortS soon will become their cyber security alternative at start of projects >:)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ This software requires specifically Python 3 interpreter as it makes use of the 
 
 1) Clone the repository.
 
-2) Run pyports.py with the -h flag for help info.
+2) Run PyPortS with the -h flag for help info.
 ```
 python pyports.py -h
 ```
