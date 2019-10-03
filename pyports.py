@@ -22,11 +22,13 @@ parser.add_argument("first_ip", type=str, help="Starting IP address of the \
 parser.add_argument("last_ip", type=str, help="Last IP address to scan.")
 parser.add_argument("-p", "--port", type=int, help="Set the last port to scan.\
                      Default is 1024.", required=False, default=1024)
+'''
 parser.add_argument("-v", "--version", type=int, help="Specify if you are \
                     testing IPv4 or IPv6 addresses. IPv4 is default.",
                     required=False, default=4)
 parser.add_argument("-u", "--udp", help="Selects UDP as the underlying \
                     protocol for testing.")
+'''
 parser.add_argument("-t", "--timeout", help="Set the timeout in seconds for \
                     each port scan. Default is 3.", default=3, type=int)
 
